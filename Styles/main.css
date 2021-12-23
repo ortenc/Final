@@ -1,0 +1,210 @@
+/*Register page stylisation*/
+
+.container-style {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.a-style {
+    text-align: center;
+}
+
+.b-style {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #0277f3;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.mb-3 row-style {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #0277f3;
+    padding: 10px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+/*Register page stylisation*/
+
+/*Log in page stylisation*/
+
+.container2-style{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #0277f3;
+    padding: 30px;
+
+}
+.container-style{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 75vh;
+}
+.error {
+    border: 1px solid red;
+}
+
+/*Log in page stylisation*/
+
+/*userlist page stylisation*/
+
+#users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#users tr:nth-child(even){background-color: #f2f2f2;}
+
+#users tr:hover {background-color: #ddd;}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+/*userlist page stylisation*/
+
+/*admin_user_page page stylisation*/
+
+.Trupi {
+    background: rgb(99, 39, 120)
+}
+
+.admin-field:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button-admin {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button-admin:hover {
+    background: #682773
+}
+
+.profile-button-admin:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button-admin:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.labels-admin {
+    font-size: 11px
+}
+
+#imageUpload-admin
+{
+    display: none;
+}
+
+#profileImage-admin
+{
+    cursor: pointer;
+}
+#profile-container-admin {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profile-container-admin img {
+    width: 150px;
+    height: 150px;
+}
+
+
+/*admin_user_page page stylisation*/
+
+
+/*userpage page stylisation*/
+
+.user-body {
+    background: rgb(99, 39, 120)
+}
+
+.user-field:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button-user {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button-user:hover {
+    background: #682773
+}
+
+.profile-button-user:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button-user:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.labels-user {
+    font-size: 11px
+}
+
+#imageUpload-user
+{
+    display: none;
+}
+
+#profileImage-user
+{
+    cursor: pointer;
+}
+#profile-container-user {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profile-container-user img {
+    width: 150px;
+    height: 150px;
+}
+
+/*userpage page stylisation*/
