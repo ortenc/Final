@@ -85,7 +85,7 @@
                     </div>
                     <div class="p-t-15">
                         <button class="btn btn--radius-2 btn--blue" type="submit" onclick="register()">Submit</button>
-                        <button class="btn btn--radius-2 btn--blue" type="submit" href="login.php">Login</button>
+                        <button class="btn btn--radius-2 btn--blue" type="submit" onclick="login()">Login</button>
                     </div>
                 </div>
             </div>
@@ -193,6 +193,9 @@
 
             }
         });
+    }
+    function login(){
+        window.location.href = "login.php";
     }
 
 </script>

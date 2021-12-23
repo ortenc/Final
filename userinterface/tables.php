@@ -19,7 +19,7 @@
 </head>
 
 <body class="">
-  <div class="wrapper ">
+  <div class="wrapper">
       <div class="sidebar" data-color="white" data-active-color="danger">
           <div class="logo">
               <a class="simple-text">
@@ -28,7 +28,7 @@
           </div>
           <div class="sidebar-wrapper">
               <ul class="nav">
-                  <li class="active ">
+                  <li class="active">
                       <a href="./user.php">
                           <i class="nc-icon nc-single-02"></i>
                           <p>User Profile</p>
